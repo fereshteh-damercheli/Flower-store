@@ -1,0 +1,27 @@
+[
+  {
+    "image": "../images/products/6.jpg",
+    "productName": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus. ",
+    "link": "READ MORE"
+  },
+  {
+    "image": "../images/products/5.jpg",
+    "productName": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus.",
+    "link": "READ MORE"
+  },
+  {
+    "image": "../images/products/7.jpg",
+    "productName": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus. ",
+    "link": "READ MORE"
+  },
+  {
+    "image": "../images/products/4.jpg",
+    "productName": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus. ",
+    "link": "READ MORE"
+  }
+
+]

@@ -1,0 +1,415 @@
+@media (min-width: 1200px) {
+div.subscribe{
+    width:100%;
+    height:650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+    div.subscribe>h1{
+        font-size:50px;
+        font-family: Playfair;
+        color:#484a4b;
+        padding:10px 350px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    div.subscribe>p{
+        padding:10px 350px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: josefinRegular;
+        color:#484a4b;
+    }
+    div.subscribe>form{
+        width:70%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    div.subscribe>form>input[type=text]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=email]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea{
+        width: 90%;
+        height:80px;
+        resize: none;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=submit]{
+        width:150px;
+        height:30px;
+        border-radius:30px;
+        text-transform: uppercase;
+        font-family:MontSerratAlternateBold;
+        border:none;
+        background-color:#c87e6b;
+        color:whitesmoke;
+transition:all 100ms linear;
+    }
+    div.subscribe>form>input[type=submit]:hover{
+        box-shadow: 5px 5px 10px #787878;
+    }
+    div.subscribe>form>input::placeholder{
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea::placeholder{
+        color:#bdbdbd;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    div.subscribe{
+        width:100%;
+        height:650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    div.subscribe>h1{
+        font-size:50px;
+        font-family: Playfair;
+        color:#484a4b;
+        padding:10px 300px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    div.subscribe>p{
+        padding:10px 350px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: josefinRegular;
+        color:#484a4b;
+    }
+    div.subscribe>form{
+        width:70%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    div.subscribe>form>input[type=text]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=email]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea{
+max-width: 90%;
+        max-height:80px;
+        resize: both;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=submit]{
+        width:150px;
+        height:30px;
+        border-radius:30px;
+        text-transform: uppercase;
+        font-family:MontSerratAlternateBold;
+        border:none;
+        background-color:#c87e6b;
+        color:whitesmoke;
+        transition:all 100ms linear;
+    }
+    div.subscribe>form>input[type=submit]:hover{
+        box-shadow: 5px 5px 10px #787878;
+    }
+    div.subscribe>form>input::placeholder{
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea::placeholder{
+        color:#bdbdbd;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    div.subscribe{
+        width:100%;
+        height:650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    div.subscribe>h1{
+        font-size:50px;
+        font-family: Playfair;
+        color:#484a4b;
+        padding:10px 200px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    div.subscribe>p{
+        padding:10px 150px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: josefinRegular;
+        color:#484a4b;
+    }
+    div.subscribe>form{
+        width:70%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    div.subscribe>form>input[type=text]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=email]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea{
+        max-width: 90%;
+        max-height:80px;
+        resize: both;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=submit]{
+        width:150px;
+        height:30px;
+        border-radius:30px;
+        text-transform: uppercase;
+        font-family:MontSerratAlternateBold;
+        border:none;
+        background-color:#c87e6b;
+        color:whitesmoke;
+        transition:all 100ms linear;
+    }
+    div.subscribe>form>input[type=submit]:hover{
+        box-shadow: 5px 5px 10px #787878;
+    }
+    div.subscribe>form>input::placeholder{
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea::placeholder{
+        color:#bdbdbd;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    div.subscribe{
+        width:100%;
+        height:650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    div.subscribe>h1{
+        font-size:50px;
+        font-family: Playfair;
+        color:#484a4b;
+        padding:10px 100px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    div.subscribe>p{
+        padding:10px 150px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: josefinRegular;
+        color:#484a4b;
+    }
+    div.subscribe>form{
+        width:70%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    div.subscribe>form>input[type=text]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=email]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea{
+        max-width: 90%;
+        max-height:80px;
+        resize: both;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=submit]{
+        width:150px;
+        height:30px;
+        border-radius:30px;
+        text-transform: uppercase;
+        font-family:MontSerratAlternateBold;
+        border:none;
+        background-color:#c87e6b;
+        color:whitesmoke;
+        transition:all 100ms linear;
+    }
+    div.subscribe>form>input[type=submit]:hover{
+        box-shadow: 5px 5px 10px #787878;
+    }
+    div.subscribe>form>input::placeholder{
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea::placeholder{
+        color:#bdbdbd;
+    }
+}
+@media  (max-width: 600px){
+    div.subscribe{
+        width:100%;
+        height:650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    div.subscribe>h1{
+        font-size:50px;
+        font-family: Playfair;
+        color:#484a4b;
+        padding:10px 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    div.subscribe>p{
+        padding:10px 50px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: josefinRegular;
+        color:#484a4b;
+    }
+    div.subscribe>form{
+        width:70%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top:20px;
+    }
+    div.subscribe>form>input[type=text]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=email]{
+        width: 90%;
+        height:40px;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea{
+        max-width: 90%;
+        max-height:80px;
+        resize: both;
+        padding:10px 30px;
+        box-sizing: border-box;
+        background-color: #efefef;
+        border:2px solid #bdbdbd;
+        font-family: MontSerratAlternateBold;
+    }
+    div.subscribe>form>input[type=submit]{
+        width:150px;
+        height:30px;
+        border-radius:30px;
+        text-transform: uppercase;
+        font-family:MontSerratAlternateBold;
+        border:none;
+        background-color:#c87e6b;
+        color:whitesmoke;
+        transition:all 100ms linear;
+    }
+    div.subscribe>form>input[type=submit]:hover{
+        box-shadow: 5px 5px 10px #787878;
+    }
+    div.subscribe>form>input::placeholder{
+        color:#bdbdbd;
+    }
+    div.subscribe>form>textarea::placeholder{
+        color:#bdbdbd;
+    }
+}

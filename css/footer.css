@@ -1,0 +1,478 @@
+@media (min-width: 1200px) {
+section.footer{
+    width:100%;
+    height:600px;
+    background-color: #424242;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    section.footer>div.first{
+        width:80%;
+        height:350px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    section.footer>div.second{
+        width:80%;
+        height:120px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        padding-right:10px;
+    }
+    section.footer>div.first>div.about{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 30px;
+    }
+    section.footer>div.first>div.weDo{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 30px;
+    }
+    section.footer>div.first>div.yourCompany{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 30px;
+    }
+    section.footer>div.first h1{
+        font-family: MontSerratAlternateBold;
+        color:#ffffff;
+        font-size:30px;
+        margin:50px 0;
+    }
+    section.footer>div.first a{
+        text-decoration:none;
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        display:block;
+      margin:20px 0;
+        font-size:14px;
+        transition:all 100ms linear;
+    }
+    section.footer>div.first a:hover{
+        color:#c87e6b;
+        opacity: 0.7;
+    }
+    section.footer>div.first p{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin:20px 0;
+        font-size:14px;
+    }
+    section.footer>div.second>span{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin-right:50px;
+    }
+    section.footer>div.second>a>i{
+        padding:10px 13px;
+        box-sizing: border-box;
+        color:#ffffff;
+        border:2px solid #ffffff;
+        margin-right:30px;
+        border-radius:50%;
+        text-align:center;
+        font-size: 16px;
+        transition:all 200ms linear;
+    }
+    section.footer>div.second>a>i:hover{
+        text-shadow: 5px 5px 50px #c87e6b;
+        border: 2px solid #c87e6b;
+        color:#c87e6b;
+    }
+    section.footer>div.second>a:nth-of-type(3)>i{
+        padding:10px 10px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    section.footer{
+        width:100%;
+        height:600px;
+        background-color: #424242;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section.footer>div.first{
+        width:80%;
+        height:350px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    section.footer>div.second{
+        width:80%;
+        height:120px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        padding-right:10px;
+    }
+    section.footer>div.first>div.about{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 10px;
+    }
+    section.footer>div.first>div.weDo{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 10px;
+    }
+    section.footer>div.first>div.yourCompany{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        padding:0 10px;
+    }
+    section.footer>div.first h1{
+        font-family: MontSerratAlternateBold;
+        color:#ffffff;
+        font-size:28px;
+        margin:50px 0;
+    }
+    section.footer>div.first a{
+        text-decoration:none;
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        display:block;
+        margin:20px 0;
+        font-size:14px;
+        transition:all 100ms linear;
+    }
+    section.footer>div.first a:hover{
+        color:#c87e6b;
+        opacity: 0.7;
+    }
+    section.footer>div.first p{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin:20px 0;
+        font-size:14px;
+    }
+    section.footer>div.second>span{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin-right:50px;
+    }
+    section.footer>div.second>a>i{
+        padding:10px 13px;
+        box-sizing: border-box;
+        color:#ffffff;
+        border:2px solid #ffffff;
+        margin-right:30px;
+        border-radius:50%;
+        text-align:center;
+        font-size: 16px;
+        transition:all 200ms linear;
+    }
+    section.footer>div.second>a>i:hover{
+        text-shadow: 5px 5px 50px #c87e6b;
+        border: 2px solid #c87e6b;
+        color:#c87e6b;
+    }
+    section.footer>div.second>a:nth-of-type(3)>i{
+        padding:10px 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    section.footer{
+        width:100%;
+        height:600px;
+        background-color: #424242;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section.footer>div.first{
+        width:80%;
+        height:350px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    section.footer>div.second{
+        width:80%;
+        height:120px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        padding-right:10px;
+    }
+    section.footer>div.first>div.about{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.weDo{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.yourCompany{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first h1{
+        font-family: MontSerratAlternateBold;
+        color:#ffffff;
+        font-size:24px;
+        margin:50px 0;
+    }
+    section.footer>div.first a{
+        text-decoration:none;
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        display:block;
+        margin:20px 0;
+        font-size:14px;
+        transition:all 100ms linear;
+    }
+    section.footer>div.first a:hover{
+        color:#c87e6b;
+        opacity: 0.7;
+    }
+    section.footer>div.first p{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin:20px 0;
+        font-size:14px;
+    }
+    section.footer>div.second>span{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin-right:50px;
+    }
+    section.footer>div.second>a>i{
+        padding:10px 13px;
+        box-sizing: border-box;
+        color:#ffffff;
+        border:2px solid #ffffff;
+        margin-right:30px;
+        border-radius:50%;
+        text-align:center;
+        font-size: 16px;
+        transition:all 200ms linear;
+    }
+    section.footer>div.second>a>i:hover{
+        text-shadow: 5px 5px 50px #c87e6b;
+        border: 2px solid #c87e6b;
+        color:#c87e6b;
+    }
+    section.footer>div.second>a:nth-of-type(3)>i{
+        padding:10px 10px;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px){
+    section.footer{
+        width:100%;
+        height:600px;
+        background-color: #424242;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section.footer>div.first{
+        width:90%;
+        height:350px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    section.footer>div.second{
+        width:80%;
+        height:120px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-right:10px;
+    }
+    section.footer>div.first>div.about{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.weDo{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.yourCompany{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first h1{
+        font-family: MontSerratAlternateBold;
+        color:#ffffff;
+        font-size:20px;
+        margin:50px 0;
+    }
+    section.footer>div.first a{
+        text-decoration:none;
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        display:block;
+        margin:20px 0;
+        font-size:12px;
+        transition:all 100ms linear;
+    }
+    section.footer>div.first a:hover{
+        color:#c87e6b;
+        opacity: 0.7;
+    }
+    section.footer>div.first p{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin:20px 0;
+        font-size:14px;
+    }
+    section.footer>div.second>span{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin-right:50px;
+    }
+    section.footer>div.second>a>i{
+        padding:10px 13px;
+        box-sizing: border-box;
+        color:#ffffff;
+        border:2px solid #ffffff;
+        margin-right:30px;
+        border-radius:50%;
+        text-align:center;
+        font-size: 16px;
+        transition:all 200ms linear;
+    }
+    section.footer>div.second>a>i:hover{
+        text-shadow: 5px 5px 50px #c87e6b;
+        border: 2px solid #c87e6b;
+        color:#c87e6b;
+    }
+    section.footer>div.second>a:nth-of-type(3)>i{
+        padding:10px 10px;
+    }
+}
+@media  (max-width: 600px){
+    section.footer{
+        width:100%;
+        height:600px;
+        background-color: #424242;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section.footer>div.first{
+        width:100%;
+        height:350px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0 10px;
+    }
+    section.footer>div.second{
+        width:80%;
+        height:120px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-right:10px;
+    }
+    section.footer>div.first>div.about{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.weDo{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first>div.yourCompany{
+        width:30%;
+        height:inherit;
+        box-sizing: border-box;
+        /*padding:0 10px;*/
+    }
+    section.footer>div.first h1{
+        font-family: MontSerratAlternateBold;
+        color:#ffffff;
+        font-size:18px;
+        margin:60px 0;
+
+    }
+    section.footer>div.first a{
+        text-decoration:none;
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        display:block;
+        margin:20px 0;
+        font-size:12px;
+        transition:all 100ms linear;
+    }
+    section.footer>div.first a:hover{
+        color:#c87e6b;
+        opacity: 0.7;
+    }
+    section.footer>div.first p{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin:20px 0;
+        font-size:14px;
+    }
+    section.footer>div.second>span{
+        color:#ffffff;
+        font-family: MontSerratAlternateRegular;
+        margin-right:50px;
+    }
+    section.footer>div.second>a>i{
+        padding:10px 13px;
+        box-sizing: border-box;
+        color:#ffffff;
+        border:2px solid #ffffff;
+        margin-right:30px;
+        border-radius:50%;
+        text-align:center;
+        font-size: 16px;
+        transition:all 200ms linear;
+    }
+    section.footer>div.second>a>i:hover{
+        text-shadow: 5px 5px 50px #c87e6b;
+        border: 2px solid #c87e6b;
+        color:#c87e6b;
+    }
+    section.footer>div.second>a:nth-of-type(3)>i{
+        padding:10px 10px;
+    }
+}

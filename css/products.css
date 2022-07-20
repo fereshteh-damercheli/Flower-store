@@ -1,0 +1,882 @@
+@media (min-width: 1100px) {
+    div.products {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 60px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 26px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        height: 550px;
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        height: 500px;
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 30%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        padding:5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 16px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 35px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 200px;
+        bottom: 0;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+    div.products {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 60px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 26px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        height: 550px;
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        height: 500px;
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 30%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        padding:5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 14px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 30px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 200px;
+        bottom: 0;
+    }
+}
+
+@media (width: 992px) {
+    div.products {
+        width: 100%;
+        /*height: 1000px;*/
+        position: relative;
+        margin-bottom: 700px;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 60px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 26px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        /*height: 550px;*/
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        height: 1500px;
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 40%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        padding:5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 14px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 40px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    div.products {
+        width: 100%;
+        /*height: 1000px;*/
+        position: relative;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 60px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 26px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        /*height: 550px;*/
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        height: 1500px;
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 40%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        padding:5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 18px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 40px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    div.products {
+        width: 100%;
+        /*height: 1000px;*/
+        position: relative;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 40px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 40px;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 40px;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        /*height: 550px;*/
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        /*height: 500px;*/
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 40%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        padding:5px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 16px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 30px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 600px) {
+    div.products {
+        width: 100%;
+        /*height: 1000px;*/
+        position: relative;
+    }
+
+    div.products > div.title {
+        width: inherit;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    div.products > div.title > h1 {
+        font-size: 40px;
+        color: #484a4b;
+    }
+
+    div.products > div.title > h3 {
+        color: #765a33;
+        font-family: MontSerratAlternateBold;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    div.products > div.title > img:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        top: 150px;
+    }
+
+    div.products > div.title > img:nth-of-type(2) {
+        position: absolute;
+        right: 0;
+        top: 150px;
+    }
+
+    div.products > div.productWrapper {
+        width: 100%;
+        /*height: 550px;*/
+        position: relative;
+    }
+
+    div.products > div.productWrapper > div.productBar {
+        width: 100%;
+        /*height: 500px;*/
+        flex-grow: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+
+
+    }
+
+
+    div.products > div.productWrapper > div.productBar > div.product {
+        width: 80%;
+        height: 500px;
+        background-color: #eeeeee;
+        margin: 20px 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: 3px 10px 15px darkgrey;
+        border-radius: 10px;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        padding:5px;
+        box-sizing: border-box;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > p {
+        color: #765a33;
+        font-family: josefinRegular;
+        font-size: 16px;
+        padding: 10px 27px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > h1 {
+        font-size: 30px;
+        color: #454545;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > i {
+        position: absolute;
+        right: 30px;
+        top: 317px;
+        color: #c87e6b;
+
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a {
+
+        position: absolute;
+        left: 20px;
+        bottom: 15px;
+        text-decoration: none;
+        font-family: MontSerratAlternateBold;
+        font-size: 12px;
+        color: #454545;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        transition: all 300ms linear;
+    }
+
+    div.products > div.productWrapper > div.productBar > div.product > a:hover {
+        background-color: #454545;
+        color: whitesmoke;
+
+
+    }
+
+    div.products > img:nth-of-type(1) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    div.products > img:nth-of-type(2) {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}

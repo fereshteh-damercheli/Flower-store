@@ -1,0 +1,14 @@
+/*import project's all css*/
+@import "setting.css";
+@import "menu.css";
+@import "home's-header.css";
+@import "statistics.css";
+@import "products.css";
+@import "videoContent.css";
+@import "offer.css";
+@import "ourSelect.css";
+@import "details.css";
+@import "love-work.css";
+@import "subscribe.css";
+@import "footer.css";
+@import "signIn.css";

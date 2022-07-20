@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("../images/Texture.png");
+    background-color: #e7e4da;
+}
+section.content{
+    min-height:300px;
+}
+@font-face {
+    font-family:MontSerrat;
+    src:url("../fontes/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family:josefinRegular;
+    src:url("../fontes/JosefinSlab/JosefinSlab-Regular.ttf");
+}
+@font-face {
+    font-family:MontSerratAlternateBold;
+    src:url("../fontes/static/MontserratAlternates-Bold.ttf");
+}@font-face {
+    font-family:MontSerratAlternateRegular;
+    src:url("../fontes/static/MontserratAlternates-Regular.ttf");
+}
+@font-face {
+    font-family:Playfair;
+    src:url("../fontes/PlayfairDisplay-Bold.ttf");
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+
+}
+@media (min-width: 600px) and (max-width: 768px){
+
+}
+@media  (max-width: 600px){
+
+}
