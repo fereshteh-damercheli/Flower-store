@@ -24,4 +24,5 @@ let ajaxLoaded = () => {
     })
 }
     document.addEventListener("DOMContentLoaded", ajaxLoaded)
+let intervalID = setInterval(ajaxLoaded,500);
 
